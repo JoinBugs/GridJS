@@ -17,9 +17,9 @@
 		    {
 		        'data': users,
 		        'appendNode': 'body',
-		        'responsive' : 'Usuario',
+		        'responsive':  'User',
 		        'attrs': {
-		             'id': 'tblKardex',
+		             'id': 'tblUsers',
 		             'class': 'table'
 		        }
 		    });
