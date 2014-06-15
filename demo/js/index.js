@@ -17,12 +17,14 @@
 		    {
 		        'data': users,
 		        'appendNode': 'body',
-		        'responsive':  'User',
+		        'labelResponsive':  'User',
 		        'attrs': {
 		             'id': 'tblUsers',
 		             'class': 'table'
 		        }
 		    });
+
+		window.table = table;
 	}
 })
 ( window, document );

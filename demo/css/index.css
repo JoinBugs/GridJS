@@ -9,7 +9,7 @@ body
 {
   background-color : rgba( 0, 90, 200, .8 );
   color : white;
-  width : 100%;
+  width : 99%;
   margin : 0 auto;
 }
 
@@ -32,7 +32,7 @@ body
   border-right: 1px solid white;
 }
 
-#tblUsers.tblResponsive tr:nth-child(5n+1) td
+#tblUsers.tblResponsive .row.User td
 {
   width : 100%;
   display: block;
