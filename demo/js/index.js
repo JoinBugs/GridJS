@@ -12,7 +12,7 @@
 			{ 'id' : 4, 'name' : 'Maria', 'isMarried' : false, 'pets' : [ 'Bird', 'Dog'] },
 			{ 'id' : 5, 'name' : 'Pedro', 'isMarried' : true, 'pets' : [ 'Horse', 'Ponny', 'Cown' ] },
 	    ],
-
+	    
 			table = grid.createGrid(
 		    {
 		        'data': users,

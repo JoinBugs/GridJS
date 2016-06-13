@@ -1,18 +1,3 @@
-body
-{
-  position : absolute;
-  width : 100%;
-  height : 100%;
-}
-
-#tblUsers
-{
-  background-color : rgba( 0, 90, 200, .8 );
-  color : white;
-  width : 99%;
-  margin : 0 auto;
-}
-
 #tblUsers.tblResponsive tr
 {
   display: block; 
