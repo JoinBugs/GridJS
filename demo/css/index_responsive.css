@@ -1,10 +1,15 @@
-#tblUsers.tblResponsive tr
+#tblUsers.tblResponsive .row.title
+{
+  display : none;
+}
+
+#tblUsers.tblResponsive .row
 {
   display: block; 
   border-bottom : 1px solid white;
 }
 
-#tblUsers.tblResponsive tr td
+#tblUsers.tblResponsive .row .col
 {
   display: inline-block;
   width : 49%;
@@ -12,12 +17,12 @@
   padding : 10px 0 10px 0;
 }
 
-#tblUsers.tblResponsive tr td:first-child
+#tblUsers.tblResponsive .row .col:first-child
 {
   border-right: 1px solid white;
 }
 
-#tblUsers.tblResponsive .row.User td
+#tblUsers.tblResponsive .col.User
 {
   width : 100%;
   display: block;
