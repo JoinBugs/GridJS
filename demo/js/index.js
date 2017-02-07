@@ -24,6 +24,22 @@
 		        }
 		    });
 
+		var newData =  [
+			{ 'id' : 0, 'name' : 'Pedro', 'isMarried' : true, 'pets' : [ 'Dog', 'Turtle'] },
+			{ 'id' : 1, 'name' : 'Daniel', 'isMarried' : false, 'pets' : [ 'Bird', 'Fish', 'Dog'] },
+			{ 'id' : 2, 'name' : 'Julia', 'isMarried' : true, 'pets' : [ 'Duck', 'Delphi' ] },
+			{ 'id' : 3, 'name' : 'Azusena', 'isMarried' : false, 'pets' : [ 'Cuyo', 'Hasmter', 'Turtle'] }
+	    ];
+
+		 document.querySelector( '#btnUpdate' )
+		 		.addEventListener( 'click', function( e )
+		 		{
+				 	table.updateData({
+				    	'data' : newData
+				    });
+		 		}, 
+		 		false );
+
 		window.table = table;
 	}
 })
