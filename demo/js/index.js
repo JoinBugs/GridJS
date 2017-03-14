@@ -16,7 +16,7 @@
 			table = grid.createGrid(
 		    {
 		        'data': users,
-		        'appendNode': 'body',
+		        'appendNode': '#main',
 		        'labelResponsive':  'User',
 		        'attrs': {
 		             'id': 'tblUsers',
